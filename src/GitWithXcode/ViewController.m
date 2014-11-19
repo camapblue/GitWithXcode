@@ -18,7 +18,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    NSString *abc = @"Hello world";
+    NSString *abc = @"Hello world 1234";
     NSLog(@"abc = %@", abc);
 }
 

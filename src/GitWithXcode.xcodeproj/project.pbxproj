@@ -15,6 +15,7 @@
 		A62BEB861A1C7FAC00C01225 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A62BEB851A1C7FAC00C01225 /* Images.xcassets */; };
 		A62BEB891A1C7FAC00C01225 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A62BEB871A1C7FAC00C01225 /* LaunchScreen.xib */; };
 		A62BEB951A1C7FAC00C01225 /* GitWithXcodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A62BEB941A1C7FAC00C01225 /* GitWithXcodeTests.m */; };
+		A62BEBA01A1C917900C01225 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A62BEB9F1A1C917900C01225 /* TestViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,8 @@
 		A62BEB8E1A1C7FAC00C01225 /* GitWithXcodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitWithXcodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A62BEB931A1C7FAC00C01225 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A62BEB941A1C7FAC00C01225 /* GitWithXcodeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitWithXcodeTests.m; sourceTree = "<group>"; };
+		A62BEB9E1A1C917900C01225 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		A62BEB9F1A1C917900C01225 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +95,8 @@
 				A62BEB871A1C7FAC00C01225 /* LaunchScreen.xib */,
 				A62BEB7C1A1C7FAC00C01225 /* GitWithXcode.xcdatamodeld */,
 				A62BEB751A1C7FAC00C01225 /* Supporting Files */,
+				A62BEB9E1A1C917900C01225 /* TestViewController.h */,
+				A62BEB9F1A1C917900C01225 /* TestViewController.m */,
 			);
 			path = GitWithXcode;
 			sourceTree = "<group>";
@@ -226,6 +231,7 @@
 				A62BEB781A1C7FAC00C01225 /* main.m in Sources */,
 				A62BEB811A1C7FAC00C01225 /* ViewController.m in Sources */,
 				A62BEB7E1A1C7FAC00C01225 /* GitWithXcode.xcdatamodeld in Sources */,
+				A62BEBA01A1C917900C01225 /* TestViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +422,7 @@
 				A62BEB9A1A1C7FAC00C01225 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A62BEB9B1A1C7FAC00C01225 /* Build configuration list for PBXNativeTarget "GitWithXcodeTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +431,7 @@
 				A62BEB9D1A1C7FAC00C01225 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

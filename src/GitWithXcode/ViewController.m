@@ -19,6 +19,9 @@
     // Do any additional setup after loading the view, typically from a nib.
     
     NSString *abc = @"Hello world 1234";
+    NSLog(@"abc = %@ kha kha", abc);
+    
+    abc = @"Hello world 1234";
     NSLog(@"abc = %@", abc);
 }
 

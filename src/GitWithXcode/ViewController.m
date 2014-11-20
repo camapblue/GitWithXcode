@@ -20,6 +20,9 @@
     
     NSString *abc = @"Hello world 1234";
     NSLog(@"abc = %@", abc);
+    
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {
